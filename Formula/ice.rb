@@ -3,14 +3,8 @@ class Ice < Formula
     homepage "https://zeroc.com"
 
     version "3.8.0-nightly.20250303.1"
-    url "https://github.com/zeroc-ice/ice/archive/b0f4f7899ce518e2485cd6ac4ced7cc9e11b3283.tar.gz"
-    sha256 "946f15e89201d24124378033ed307dceeb737a57977a77aae63a97ae695dd876"
-
-  bottle do
-    root_url "https://download.zeroc.com/nexus/repository/nightly"
-    rebuild 1
-    sha256 cellar: :any, arm64_sonoma: "8f77da1bd9a22c895eb8bec6b40d7fe89b2f8474765958645612432a2ac78639"
-  end
+    url "https://github.com/zeroc-ice/ice/archive/d06fecd29d55dde96d74d17a197eef855c3d3845.tar.gz"
+    sha256 "f3c878fe00869a339a93bfa85af08f09f35f55dab8cc3398c2fa77514d0c48db"
 
     depends_on "lmdb"
     depends_on "mcpp"
