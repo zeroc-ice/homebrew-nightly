@@ -2,14 +2,9 @@ class Ice < Formula
     desc "Comprehensive RPC framework"
     homepage "https://zeroc.com"
 
-    version "3.8.0-nightly.20250331.1"
-    url "https://github.com/zeroc-ice/ice/archive/f45876bba091886f2609010c7efd3b4949e93f84.tar.gz"
-    sha256 "69c7b4531f615428c3fa198a0f0996d9a07e2cff9d1edfd55d12d584c7037ecc"
-
-  bottle do
-    root_url "https://download.zeroc.com/nexus/repository/nightly"
-    sha256 cellar: :any, arm64_sonoma: "ce04cc6e5f50bff0983628174e09e1cdec8d0ef7b263237f28f8c3765b4fcabe"
-  end
+    version "3.8.0-nightly.20250401.1"
+    url "https://github.com/zeroc-ice/ice/archive/3229ebf121ee5d5a650d0fc894026d4e2e46a720.tar.gz"
+    sha256 "b0cc3236b075d69a0fb0b8df81a9ae1d4a824e0aab8aa682302c24b6f189237e"
 
     depends_on "lmdb"
     depends_on "mcpp"
