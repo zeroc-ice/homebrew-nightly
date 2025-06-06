@@ -6,6 +6,11 @@ class Ice < Formula
     url "https://github.com/zeroc-ice/ice/archive/4def764c5e6a5c214d60e26666bf048f03e49451.tar.gz"
     sha256 "ca90571a8e82b561f88f5cda1d746f2130c99ed9bf8c71480f00f94d763861ac"
 
+  bottle do
+    root_url "https://download.zeroc.com/nexus/repository/nightly"
+    sha256 cellar: :any, arm64_sequoia: "f0d10918b8a4be06d013a885a2d37d51740814e94a56dc0620df50dbb188623d"
+  end
+
     depends_on "lmdb"
     depends_on "mcpp"
 
