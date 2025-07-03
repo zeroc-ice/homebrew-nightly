@@ -2,13 +2,13 @@ class Ice < Formula
     desc "Comprehensive RPC framework"
     homepage "https://zeroc.com"
 
-    version "3.8.0-nightly.20250702.1"
-    url "https://github.com/zeroc-ice/ice/archive/774f3a3e7ef66a438e4e9467fd1f7dbad2130dbe.tar.gz"
-    sha256 "fef8f0dd22cb2abc2e4c9084404379d8604f14f15f3f02909d8ad66631f52167"
+    version "3.8.0-nightly.20250703.1"
+    url "https://github.com/zeroc-ice/ice/archive/7fbfb6f2988bc1ede37d3c06c4b61c4061700ae7.tar.gz"
+    sha256 "fbf9494df093a2a0c16dc6b27fce1cf0b33694724a95310eee099cac35f7afc3"
 
   bottle do
     root_url "https://download.zeroc.com/ice/nightly"
-    sha256 cellar: :any, arm64_sequoia: "c82459c7290d773444e7440a14adffc8c369d2b0b023f49671d3c68776668188"
+    sha256 cellar: :any, arm64_sequoia: "9d5de49b438f6f1075e3cd70965eec42a5a18bbb872806dd59b0a7ebe7c628ef"
   end
 
     depends_on "lmdb"
@@ -28,9 +28,7 @@ class Ice < Formula
       system "make", "install", *args
 
       (libexec/"bin").mkpath
-      %w[slice2py slice2rb slice2js].each do |r|
-        mv bin/r, libexec/"bin"
-      end
+      mv bin/"slice2py", libexec/"bin"
     end
 
     test do
