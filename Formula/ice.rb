@@ -8,7 +8,8 @@ class Ice < Formula
 
   bottle do
     root_url "https://download.zeroc.com/ice/nightly"
-    sha256 cellar: :any, arm64_tahoe: "42e705c5fe535b28e8bcbbe226b474e5dba82590f800409f7127fb30b7e61ed3"
+    rebuild 1
+    sha256 cellar: :any, arm64_tahoe: "a1f049e64ace08b68fa74acd9b7dc382da383da6a53bf12fdb0137f3d7a8aaf9"
   end
 
     depends_on "lmdb"
