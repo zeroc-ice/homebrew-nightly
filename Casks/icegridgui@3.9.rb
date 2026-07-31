@@ -1,8 +1,8 @@
 cask "icegridgui@3.9" do
-  version "3.9.0-nightly.20260730.1"
-  sha256 "774ddafc2d44bcee2b6d890df1ac8ef86b6284ce1900b72a967ccb09436fcf03"
+  version "3.9.0-nightly.20260731.1"
+  sha256 "2ed035369c66533f7682c05e7ef097d39431b3c8305d9db0bb2b0b9ca29c9959"
 
-  url "https://download.zeroc.com/ice/nightly/3.9/IceGridGUI-3.9.0-nightly.20260730.1.dmg"
+  url "https://download.zeroc.com/ice/nightly/3.9/IceGridGUI-3.9.0-nightly.20260731.1.dmg"
   name "IceGrid GUI"
   desc "Graphical administration tool for IceGrid"
   homepage "https://zeroc.com"
