@@ -2,13 +2,13 @@ class IceAT38 < Formula
     desc "Comprehensive RPC framework"
     homepage "https://zeroc.com"
 
-    version "3.8.3-nightly.20261110.1"
-    url "https://github.com/zeroc-ice/ice/archive/a832296fdd537863cd4691a07c2cc262b852133c.tar.gz"
-    sha256 "00000cfadfc12eca27478598a772e4f6040e317e1d9f29723b39d79b68374b7b"
+    version "3.8.3-nightly.20261111.1"
+    url "https://github.com/zeroc-ice/ice/archive/e7541972924b7923ec505907ded4d8ccd321c514.tar.gz"
+    sha256 "47d86c187ffa612263522071f1768750ec85e4d1e382bac5c21e9d83be2bd139"
 
   bottle do
     root_url "https://download.zeroc.com/ice/nightly/3.8"
-    sha256 cellar: :any, arm64_tahoe: "1fab004e9fbfe6f59feb7416e97e125cba4a633db816bf9cdd904815fd72c29a"
+    sha256 cellar: :any, arm64_tahoe: "3ac42b7a0b0587ebfb943a08e7c7384a845ed92f3a73fef816f5e7717edeeeab"
   end
 
     depends_on "lmdb"
